@@ -1,0 +1,362 @@
+/* IMPORT FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body{
+  margin: 0;
+  padding: 0;
+}
+/* HEADER PART STYLE */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+
+  height: 67px;
+  padding-left: 156px;
+  background-color: #2d25a0;
+  padding-top: 20px;
+}
+
+.menubar {
+  display: flex;
+  justify-content: center;
+
+  height: 30px;
+}
+.menubar ul li {
+  display: inline;
+  height: 44px;
+  width: 123px;
+}
+.menubar ul li a {
+  text-decoration: none;
+  padding: 0 10px;
+  margin-right: 36px;
+  color: white;
+}
+ .button {
+  align-items: center;
+
+  background-color: #e02c6d;
+  height: 44px;
+  width: 123px;
+  margin-right: 208px;
+  padding-left: 10px;
+  margin-top: 14px;
+  text-align: center;
+  justify-content: space-between;
+}
+.button a {
+  color: white;
+  text-decoration: none;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  padding-top: 9px;
+} 
+
+.button-1{
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  background: #e02c6d ;
+  height: 30px;
+  width: 158px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-decoration: 0.3s;
+  transition-property:box-shadow,transform ;
+ 
+}
+.button-1 a{
+  color: #fff;
+  text-decoration: none;
+}
+.button-1:hover, .button-1:focus, .button-1:active{
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  transform: scale(1.1);
+}
+
+.fas-fa {
+  width: 10px;
+  color: white;
+}
+/* BANNER-PART */
+.banner-area {
+  height: 667px;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  background-color: #2d25a0;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 135px;
+  margin-bottom: 104px;
+  padding-left: 130px;
+}
+
+.copa {
+  font-size: 44px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700px;
+  color: white;
+  width: 40%;
+  height: 230px;
+  padding-left: 8px;
+  padding-bottom: 20px;
+}
+img {
+  height: 438px;
+  width: 556px;
+}
+
+.container {
+  /* background-color: white; */
+  align-items: center;
+  width: 100%;
+  padding: 30px;
+  margin-top: 21px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* SECTION-PART GRID PLAYER */
+.container {
+  font-family: "Poppins", sans-serif;
+  /* background-color: #f3f1ff; */
+  background-color: white;
+}
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+.course {
+  height: 492px;
+  width: 347px;
+  box-shadow: 0 0 5px 2px rgb(0 0 0 / 10%);
+  /* box-shadow: 0px 10.34229px 13.3557px rgb(0 0 0 / 18%); */
+}
+.course .course-banner img {
+  width: 316px;
+  height: 269px;
+  padding-left: 14px;
+  padding-top: 14px;
+}
+.course .course-details {
+  margin-top: 0.5 rem !important;
+  margin-bottom: 0.5 rem !important;
+  font-family: "Poppins", sans-serif;
+  padding: 0 15px;
+}
+.course .course-details h3 {
+  font-size: 28px;
+  font-weight: 900px;
+}
+.course .course-details p {
+  color: #6c6c6c;
+  font-family: Poppins;
+}
+/* SECTION-PART- HIGHLIGHT */
+.hightlights {
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+.contain {
+  display: flex;
+  justify-content: flex;
+}
+.light-2 img {
+  height: 427px;
+  width: 567px;
+  margin-right: 156px;
+  margin-left: 90px;
+}
+.lights-1 {
+  justify-content: center;
+  margin-left: 182px;
+  height: 309px;
+  width: 463px;
+}
+.lights-1 .letter {
+  font-size: 44px;
+  font-family: Poppins;
+}
+.button-3 {
+  align-items: center;
+  background-color: #e02c6d;
+  height: 44px;
+  width: 173px;
+  margin-right: 208px;
+
+  margin-top: 14px;
+  text-align: center;
+  justify-content: space-between;
+}
+.button-3 a {
+  color: white;
+  text-decoration: none;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  padding-top: 9px;
+  font-size: 16px;
+  font-family: poppins;
+}
+
+/* FOOTER-PART */
+footer {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 140px;
+}
+footer img {
+  height: 110px;
+  width: 484px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  height: 32px;
+  padding-right: 30px;
+}
+
+.icon ul li {
+  display: inline;
+  justify-content: space-between;
+
+  width: 170px;
+  padding-left: 20px;
+}
+.icon ul li a {
+  color: black;
+  width: 0px;
+}
+footer p {
+  font-size: 22px;
+
+  color: #000;
+}
+.container-main{
+  width: 100%;
+}
+
+/* IMAGE TRANSITION PART */
+.title{
+  height: 20vh;
+  font-size:30px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 150px;
+}
+
+
+.messi{
+ margin: 40px 300px;
+align-items: center;
+  height: 400px;
+  width: 600px;
+}
+
+.image-container{
+  height: 300px;
+  width: 800px;
+  border: 10px solid black;
+  position: relative;
+
+}
+
+
+.image-container img{
+  height: 100%;
+  width: 100%;
+  
+}
+.messi{
+  display: block;
+  justify-content: center;
+}
+
+
+.transition-image{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+transition: opacity 0.5s ease;
+}
+
+.transition-image:hover{
+opacity: 1;
+}
+
+/* SECTION-PART-POPULAR PLAYERS */
+.happy-customers {
+  justify-content: flex;
+  display: block;
+  margin-top: 170px;
+}
+h2 {
+  font-size: 45px;
+  text-align: center;
+  font-family: serif;
+}
+.customer p{
+  font-size: 20px;
+}
+h4{
+  font-size: 25px;
+}
+.customer-rev {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+  padding-left: 8rem;
+  padding-right: 0.5rem;
+}
+.customer img {
+  width: 140px;
+  height: 140px;
+}
+
+/* Mobile Devices */
+@media only screen and (max-width: 688px) {
+  main {
+    width: 100%;
+  }
+  .manu,
+  .banner-area,
+  .courses,
+  .messi,
+  .happy-customers,
+  .hightlights {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .menubar,
+  .button,
+  .banner,
+  .banner-image,
+  .course,
+  .contain,
+  .lights-1,
+  .messi-boy,
+  .customer-rev,
+  .light-2
+  {
+    flex-direction: column;
+  }
+}
+
