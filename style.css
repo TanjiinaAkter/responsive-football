@@ -1,6 +1,6 @@
 /* IMPORT FONT FAMILY */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-body{
+body {
   margin: 0;
   padding: 0;
 }
@@ -33,7 +33,7 @@ body{
   margin-right: 36px;
   color: white;
 }
- .button {
+.button {
   align-items: center;
 
   background-color: #e02c6d;
@@ -52,13 +52,13 @@ body{
   align-items: center;
   display: flex;
   padding-top: 9px;
-} 
+}
 
-.button-1{
+.button-1 {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: bold;
-  background: #e02c6d ;
+  background: #e02c6d;
   height: 30px;
   width: 158px;
   padding: 20px;
@@ -66,17 +66,18 @@ body{
   text-decoration: none;
   color: #fff;
   cursor: pointer;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-decoration: 0.3s;
-  transition-property:box-shadow,transform ;
- 
+  transition-property: box-shadow, transform;
 }
-.button-1 a{
+.button-1 a {
   color: #fff;
   text-decoration: none;
 }
-.button-1:hover, .button-1:focus, .button-1:active{
-  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+.button-1:hover,
+.button-1:focus,
+.button-1:active {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   transform: scale(1.1);
 }
 
@@ -242,65 +243,62 @@ footer img {
 }
 .icon ul li a {
   color: black;
+  text-decoration: none;
   width: 0px;
 }
+
 footer p {
   font-size: 22px;
 
   color: #000;
 }
-.container-main{
+.container-main {
   width: 100%;
 }
 
 /* IMAGE TRANSITION PART */
-.title{
+.title {
   height: 20vh;
-  font-size:30px ;
+  font-size: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-left: 150px;
 }
 
-
-.messi{
- margin: 40px 300px;
-align-items: center;
+.messi {
+  margin: 40px 300px;
+  align-items: center;
   height: 400px;
   width: 600px;
 }
 
-.image-container{
+.image-container {
   height: 300px;
   width: 800px;
   border: 10px solid black;
   position: relative;
-
 }
 
-
-.image-container img{
+.image-container img {
   height: 100%;
   width: 100%;
-  
 }
-.messi{
+.messi {
   display: block;
   justify-content: center;
 }
 
-
-.transition-image{
+.transition-image {
   position: absolute;
   top: 0px;
   left: 0px;
   opacity: 0;
-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
 }
 
-.transition-image:hover{
-opacity: 1;
+.transition-image:hover {
+  opacity: 1;
 }
 
 /* SECTION-PART-POPULAR PLAYERS */
@@ -314,10 +312,10 @@ h2 {
   text-align: center;
   font-family: serif;
 }
-.customer p{
+.customer p {
   font-size: 20px;
 }
-h4{
+h4 {
   font-size: 25px;
 }
 .customer-rev {
@@ -337,6 +335,17 @@ h4{
   main {
     width: 100%;
   }
+  .messi {
+    margin: 0;
+    width: 300px;
+  }
+  .image-container img {
+    width: 100%;
+  }
+  .image-container {
+    width: 350px;
+    margin: 0 auto;
+  }
   .manu,
   .banner-area,
   .courses,
@@ -344,6 +353,7 @@ h4{
   .happy-customers,
   .hightlights {
     grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
   }
   .menubar,
   .button,
@@ -354,9 +364,8 @@ h4{
   .lights-1,
   .messi-boy,
   .customer-rev,
-  .light-2
-  {
+  .light-2 {
     flex-direction: column;
+    align-items: center;
   }
 }
-
